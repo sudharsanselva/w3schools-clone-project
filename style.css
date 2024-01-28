@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.nav1 ul li{
+    padding: 15px;
+    font-size: 18px;
+    padding-top: 28px;
+    list-style-type: none;
+}
+.space{
+    flex-grow: 0.8;
+}
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #282A35;
+
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #282A35;
+    color: white;
+    padding-left: 10px;
+}
+.nav2  li{
+    list-style-type: none;
+    padding: 15px;
+}
+.content{
+    background-color: #282A35;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+.content h4{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: brown;
+
+}
+.searchbox{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    width: 30%;
+    border-radius: 50px;
+}
+.content a{
+
+    font-size: 1.7rem;
+    color: white;
+}
+.html{
+    background-color: #D9EEE1;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.html1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.html .html1 h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.html .html1 h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.html >.html1 >p{
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.8rem;
+    text-align: center;
+    width: 35%;
+    border-radius: 30px;
+}
+@media  screen and (max-width:650px){
+.html .html2 {
+    display: none;
+    }
+}
+
+@media  screen and (max-width:650px){
+    .css .html2 {
+    display: none;
+    }
+}
+@media  screen and (max-width:650px){
+    .js .html2 {
+    display: none;
+}
+}
+@media  screen and (max-width:650px){
+    .py .html2 {
+    display: none;
+    }
+}
+@media  screen and (max-width:650px){
+    .sql .html2 {
+    display: none;
+    }
+}
+
+.html2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.html2 .box1{
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding: 1rem;
+    height: 27rem;
+    width: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.html2 .box2{
+    background-color: white;
+    margin-top: 1rem;
+    border-left: 5px solid green;
+    height: 20rem;
+    width: 30rem;
+}
+.html2 .box3{
+    background-color: green;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+}
+.css{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.css1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.css >.css1 >h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.css >.css1 >h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.css>.css1 >p{
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.8rem;
+    text-align: center;
+    width: 35%;
+    border-radius: 30px;
+}
+
+.js{
+    background-color: #282A35;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.js1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.js >.js1 >h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.js >.js1 >h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.js>.js1 >p{
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.8rem;
+    text-align: center;
+    width: 35%;
+    border-radius: 30px;
+}
+.py{
+    background-color: #F3ECEA;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.pyt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.py>.pyt >h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.py>.pyt >h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.py>.pyt >p{
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.8rem;
+    text-align: center;
+    width: 35%;
+    border-radius: 30px;
+}
+
+.sql{
+    background-color: #96D4D4;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.sql1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sql>.sql1 >h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sql>.sql1 >h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.sql>.sql1>p{
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.8rem;
+    text-align: center;
+    width: 35%;
+    border-radius: 30px;
+}
+.main{
+    background-color: #282A35;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4rem;
+    padding-top: 10px;
+}
+.php{
+    background-color:#FFC0C7 ;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 20px;
+    width: 45%;
+    padding: 15px;
+}
+
+.php h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.php h3{
+font-size: 1.3rem;
+
+}
+@media (max-width:680px){
+.main .php{
+        width: 90%;
+    }
+}
+.jq{
+    background-color: #FFF4A3;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 2rem;
+    gap: 20px;
+    padding: 10px;
+}
+.jq h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.jq h3{
+font-size: 1.3rem;
+}
+@media (max-width:680px){
+    .main .jq{
+        width: 90%;
+    }
+}
+
+.java{
+    background-color: #F3ECEA;
+    display: flex;
+    padding: 10px;
+    justify-content:center ;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 45%;
+}
+.java h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.java h3{
+font-size: 1.3rem;
+
+}
+@media (max-width:680px){
+    .main .java{
+        width: 90%;
+    }
+}
+
+.cpp{
+    background-color: #D9EEE1;
+    gap: 20px;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    width: 45%;
+}
+.cpp h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cpp h3{
+font-size: 1.3rem;
+}
+@media (max-width:680px){
+    .main .cpp{
+        width: 90%;
+}
+}
+.btn{
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0rem  auto;
+
+}
+.c{
+
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    height: 45%;
+    background-color: #FFC0C7;
+    color: black;
+    padding: 40px;
+
+}
+@media (max-width:680px){
+    .main .c{
+        width: 90%;
+    }
+}
+.c1{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    background-color: #FFF4A3;
+    color: black;
+    height: 45%;
+    padding: 40px;
+
+}
+@media (max-width:680px){
+    .main .c1{
+         width: 90%;
+     }
+ }
+.box{
+    padding-top: 40px;
+    background-color: #282A35 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+
+}
+.r{
+    background-color: #F3ECEA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 300px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 35px 0 35px 0;
+    text-align: center;
+}
+
+@media( max-width:680px ){
+    .box .r{
+        width: 90%;
+    }
+}
